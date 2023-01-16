@@ -1,0 +1,40 @@
+{
+  "name": "twitter-ban-extend",
+  "version": "0.0.0",
+  "author": "akarachen",
+  "description": "",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "chrome-extension",
+    "react",
+    "vite",
+    "create-chrome-ext"
+  ],
+  "engines": {
+    "node": ">=14.18.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "fmt": "prettier --write '**/*.{tsx,ts,json,css,scss,md}'"
+  },
+  "dependencies": {
+    "@akrc/ringo": "^1.0.4",
+    "@popperjs/core": "^2.11.6",
+    "@types/chrome": "^0.0.208",
+    "bootstrap": "^5.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@crxjs/vite-plugin": "^1.0.12",
+    "@types/react": "^18.0.14",
+    "@types/react-dom": "^18.0.5",
+    "@vitejs/plugin-react": "^1.3.2",
+    "prettier": "^2.7.1",
+    "typescript": "^4.6.4",
+    "vite": "^2.9.13"
+  }
+}
