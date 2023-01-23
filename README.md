@@ -6,7 +6,7 @@ English | [简体中文](./README.CN.md)
 
 ## Motivation
 
-Hide people with certain emoji in their id.
+Hide people with certain emojis in their IDs.
 
 ## Download
 
@@ -14,4 +14,4 @@ Go to [release](https://github.com/AkaraChen/twitter-ban-extend/releases).
 
 ## Thanks
 
-Inspared by [rxliuli](https://github.com/rxliuli).
+Inspired by [rxliuli](https://github.com/rxliuli)](https://github.com/rxliuli).

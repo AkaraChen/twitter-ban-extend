@@ -11,6 +11,7 @@
 ## 下载
 
 请查看 [release](https://github.com/AkaraChen/twitter-ban-extend/releases)。
+如果不会安装，可以参考本项目 [wiki](https://github.com/AkaraChen/twitter-ban-extend/wiki/%E9%A6%96%E9%A1%B5)
 
 ## 鸣谢
 
