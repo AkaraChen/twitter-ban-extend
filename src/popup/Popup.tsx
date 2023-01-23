@@ -9,19 +9,20 @@ function App() {
   useEffect(() => {
     ;(async () => {
       const { list } = await chrome.storage.local.get('list')
-      setInput((list as string[]).join('\n'))
+      setInput((list as string[]).join(' '))
     })()
   }, [])
   const handleInput = (e: ChangeEvent<HTMLTextAreaElement>) => {
     setInput(e.target.value)
   }
   const handleClick = () => {
-    const list = input.split('\n')
+    const list = input.split(' ')
     chrome.storage.local.set({ list })
     notice({ text: '已保存' })
   }
+  const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
   return (
-    <>
+    <div data-bs-theme={isDarkMode ? "dark" : "light"} className="text-body bg-body">
       <h2>Ban</h2>
       <div className="form-floating">
         <textarea
@@ -34,12 +35,12 @@ function App() {
             height: '100px',
           }}
         />
-        <label htmlFor="textarea">要屏蔽的内容，一行一个</label>
+        <label htmlFor="textarea">要屏蔽的内容，用空格隔开</label>
         <button onClick={handleClick} className="btn btn-primary mt-2">
           保存
         </button>
       </div>
-    </>
+    </div>
   )
 }
 

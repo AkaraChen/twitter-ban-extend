@@ -10,7 +10,7 @@ const main = async () => {
       }
       `
     })
-    .join(' ')
+    .join('')
   const style = document.createElement('style')
   style.textContent = styles
   const head = document.querySelector('head')!
