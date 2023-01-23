@@ -10,7 +10,7 @@ Hide people with certain emoji in their id.
 
 ## Download
 
-Go to [release](https://gtihub.com/akarachen/twitter-ban-extend/releases).
+Go to [release](https://github.com/AkaraChen/twitter-ban-extend/releases).
 
 ## Thanks
 

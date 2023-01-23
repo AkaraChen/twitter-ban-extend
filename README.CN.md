@@ -10,7 +10,7 @@
 
 ## 下载
 
-请查看 [release](https://gtihub.com/akarachen/twitter-ban-extend/releases)。
+请查看 [release](https://github.com/AkaraChen/twitter-ban-extend/releases)。
 
 ## 鸣谢
 
