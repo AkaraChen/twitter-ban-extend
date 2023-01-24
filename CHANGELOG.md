@@ -1,3 +1,12 @@
+## [0.0.2](https://github.com/AkaraChen/twitter-ban-extend/compare/0.0.1...0.0.2) (2023-01-24)
+
+
+### Features
+
+* catch error when have no emoji configured ([4088dfa](https://github.com/AkaraChen/twitter-ban-extend/commit/4088dfa5e7088d66863440d9c49c093d9ab310d9))
+
+
+
 ## [0.0.1](https://github.com/AkaraChen/twitter-ban-extend/compare/0.0.0...0.0.1) (2023-01-23)
 
 
