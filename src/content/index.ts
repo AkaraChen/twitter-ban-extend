@@ -1,6 +1,4 @@
-const main = async () => {
-  const { list } = await chrome.storage.local.get('list')
-  console.log(list, 'contents')
+chrome.storage.local.get('list').then(({ list }) => {
   const styles = (list as string[])
     .map((item) => {
       return `
@@ -15,6 +13,4 @@ const main = async () => {
   style.textContent = styles
   const head = document.querySelector('head')!
   head.append(style)
-}
-
-main()
+}).catch()
